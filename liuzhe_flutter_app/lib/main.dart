@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import './demo/drawer_demo.dart';
+import './demo/bottom_tabbar_demo.dart';
+import './demo/listview-demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,11 +32,11 @@ class Home extends StatelessWidget{
       child: Scaffold(
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.menu),
-            tooltip: 'Navigration',
-            onPressed: () => debugPrint('点击点击'),
-          ),
+//          leading: IconButton(
+//            icon: Icon(Icons.menu),
+//            tooltip: 'Navigration',
+//            onPressed: () => debugPrint('点击点击'),
+//          ),
           title: Text("LIUZHE"),
           actions: <Widget>[
             IconButton(
@@ -62,39 +65,15 @@ class Home extends StatelessWidget{
         ) ,
         body: TabBarView(
           children: <Widget>[
-            Icon(Icons.local_florist, size: 128, color: Colors.black12),
+            ListViewDemo(),
             Icon(Icons.change_history, size: 128, color: Colors.black12),
             Icon(Icons.directions_bike, size: 128, color: Colors.black12),
           ],
         ),
-        drawer: Container(
-          color: Colors.white,
-          padding:EdgeInsets.all(8.0),
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: <Widget>[
-              DrawerHeader(
-                child: Text('header'.toUpperCase()),
-                decoration: BoxDecoration(
-                  color: Colors.grey[100],
-                ),
-              ),
-              ListTile(
-                title: Text('Message',textAlign: TextAlign.right,),
-                trailing: Icon(Icons.message, color:Colors.black12, size: 22.0),
-              ),
-              ListTile(
-                title: Text('Favorite',textAlign: TextAlign.right,),
-                trailing: Icon(Icons.favorite, color:Colors.black12, size: 22.0),
-              ),
-              ListTile(
-                title: Text('Settings',textAlign: TextAlign.right,),
-                trailing: Icon(Icons.settings, color:Colors.black12, size: 22.0),
-              ),
-            ],
-          )
-        ),
+        drawer: DrawerDemo(),
+        bottomNavigationBar: BottomNavigationBarDemo(),
 //        endDrawer: Text('112233'),//右侧抽屉
+
       ),
     );
   }
