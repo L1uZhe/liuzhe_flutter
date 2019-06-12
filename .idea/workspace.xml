@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40968f5e-4b05-4401-b46c-b53a5d727ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/bottom_tabbar_demo.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/drawer_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/basic_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart" afterDir="false" />
     </list>
@@ -16,49 +15,25 @@
   <component name="DartProblemsView" auto-scroll-to-source="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/basic_demo.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#593#1183#0" />
-                <element signature="e#717#749#0" />
-                <element signature="e#837#970#0" />
-                <element signature="e#972#995#0" />
-                <element signature="e#1341#1740#0" />
+                <element signature="e#1139#1332#0" />
+                <element signature="e#232#688#0" />
+                <element signature="e#575#581#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/listview-demo.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/bottom_tabbar_demo.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/drawer_demo.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,11 +58,12 @@
         <option value="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/drawer_demo.dart" />
         <option value="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/bottom_tabbar_demo.dart" />
         <option value="$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart" />
+        <option value="$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/basic_demo.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
+    <option name="x" value="187" />
     <option name="y" value="23" />
     <option name="width" value="1209" />
     <option name="height" value="803" />
@@ -97,7 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,7 +116,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,11 +204,19 @@
       <option name="project" value="LOCAL" />
       <updated>1560229339799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="头部导航 pagemenu 侧边划出界面 tabbar">
+      <created>1560235579841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560235579841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="23" width="1209" height="803" extended-state="0" />
+    <frame x="187" y="23" width="1209" height="803" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33504713" />
@@ -243,13 +227,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Build Variants" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.2419128" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.25316456" />
       <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49871466" visible="true" weight="0.3305204" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5012854" side_tool="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Flutter Performance" order="6" sideWeight="0.5012854" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5012854" side_tool="true" weight="0.3305204" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" sideWeight="0.5012854" side_tool="true" weight="0.3305204" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25457102" />
       <window_info anchor="bottom" id="Logcat" order="8" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
@@ -264,14 +248,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1" />
+    <MESSAGE value="头部导航 pagemenu 侧边划出界面 tabbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="头部导航 pagemenu 侧边划出界面 tabbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="Dart">
           <url>file://$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart</url>
-          <line>65</line>
+          <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -343,17 +328,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/hello-demo.dart">
+    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/listview-demo.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/drawer_demo.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,27 +345,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/listview-demo.dart">
+    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/drawer_demo.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/hello-demo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/flutter/bin/cache/pkg/sky_engine/lib/ui/text.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/flutter/packages/flutter/lib/src/widgets/text.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="290" column="11" selection-start-line="290" selection-start-column="11" selection-end-line="290" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuzhe_flutter_app/lib/demo/basic_demo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#593#1183#0" />
-            <element signature="e#717#749#0" />
-            <element signature="e#837#970#0" />
-            <element signature="e#972#995#0" />
-            <element signature="e#1341#1740#0" />
+            <element signature="e#1139#1332#0" />
+            <element signature="e#232#688#0" />
+            <element signature="e#575#581#0" />
           </folding>
         </state>
       </provider>
