@@ -10,6 +10,12 @@ import './switch_demo.dart';
 import './slider_demo.dart';
 import './datetime_demo.dart';
 import './simple_dialog_demo.dart';
+import './alert_dialog_demo.dart';
+import './bottom_sheet_demo.dart';
+import './snack_bar_demo.dart';
+import './expansion_panel_demo.dart';
+import './chip_demo.dart';
+import './data_table_demo.dart';
 class MaterialCompinents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -20,6 +26,12 @@ class MaterialCompinents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          ListItem(title: 'tableview及排序',page: DataTableDemo()),
+          ListItem(title: 'chip名称选项按钮,包含多选单选删除',page: ChipDemo()),
+          ListItem(title: '伸缩选择面板',page: ExpansionPanelDemo()),
+          ListItem(title: '底部黑色提示框',page: SnackBarButton()),
+          ListItem(title: '底部弹出选择框',page: BottomSheetDemo()),
+          ListItem(title: 'alert提示框',page: AlertDialogDemo()),
           ListItem(title: '对话框选择器',page: SimpleDialogDemo()),
           ListItem(title: '时间选择器',page: DateTimeDemo()),
           ListItem(title: '滑动条',page: SliderDemo()),
