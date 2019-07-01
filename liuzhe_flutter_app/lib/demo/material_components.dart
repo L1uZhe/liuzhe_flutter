@@ -16,6 +16,9 @@ import './snack_bar_demo.dart';
 import './expansion_panel_demo.dart';
 import './chip_demo.dart';
 import './data_table_demo.dart';
+import './paginated_data_table_demo.dart';
+import './card_demo.dart';
+import './stepper_demo.dart';
 class MaterialCompinents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -26,6 +29,9 @@ class MaterialCompinents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          ListItem(title: '进度列表',page: StepperDemo(),),
+          ListItem(title: '卡片列表',page: CardDemo()),
+          ListItem(title: 'tableview分页及排序',page: PaginatedDataTableDemo()),
           ListItem(title: 'tableview及排序',page: DataTableDemo()),
           ListItem(title: 'chip名称选项按钮,包含多选单选删除',page: ChipDemo()),
           ListItem(title: '伸缩选择面板',page: ExpansionPanelDemo()),
