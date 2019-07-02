@@ -19,6 +19,7 @@ import './data_table_demo.dart';
 import './paginated_data_table_demo.dart';
 import './card_demo.dart';
 import './stepper_demo.dart';
+import 'state/state_management_demo.dart';
 class MaterialCompinents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,8 @@ class MaterialCompinents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          ListItem(title: '进度列表',page: StepperDemo(),),
+          ListItem(title: '使用ScopedModel传递数据',page: StateManagementDemo()),
+          ListItem(title: '进度列表(可选)',page: StepperDemo()),
           ListItem(title: '卡片列表',page: CardDemo()),
           ListItem(title: 'tableview分页及排序',page: PaginatedDataTableDemo()),
           ListItem(title: 'tableview及排序',page: DataTableDemo()),
