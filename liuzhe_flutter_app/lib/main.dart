@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
         // home: Home(),
         // home: NavigatorDemo(),
-        initialRoute: '/state_management',
+        initialRoute: '/mdc',
         routes: {
           '/': (context) => Home(),
           '/about':(context) => Page(title: 'About'),
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           '/state_management': (context) => StateManagementDemo(),
         },
         theme: ThemeData(
-          primarySwatch: Colors.yellow,
+          primarySwatch: Colors.purple,
           highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
           splashColor: Colors.white70,//pageMenu水波纹效果颜色
           accentColor: Color.fromRGBO(3, 54, 255, 1),

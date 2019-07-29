@@ -20,6 +20,11 @@ import './paginated_data_table_demo.dart';
 import './card_demo.dart';
 import './stepper_demo.dart';
 import 'state/state_management_demo.dart';
+import './stream/stream_demo.dart';
+import './Animation_demo.dart';
+import './rxdart/rxdart_demo.dart';
+import './bloc/bloc_demo.dart';
+import './http/http_demo.dart';
 class MaterialCompinents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -30,6 +35,11 @@ class MaterialCompinents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          ListItem(title: "http网络请求",page: HttpDemo()),
+          ListItem(title: "bloc",page: BlocDemo()),
+          ListItem(title: "rxdart",page: RxDartDemo()),
+          ListItem(title: "动画。",page: SampleApp()),
+          ListItem(title: "Stream创建，停止，暂停，恢复监听。",page: StreamDemo()),
           ListItem(title: '使用ScopedModel传递数据',page: StateManagementDemo()),
           ListItem(title: '进度列表(可选)',page: StepperDemo()),
           ListItem(title: '卡片列表',page: CardDemo()),
