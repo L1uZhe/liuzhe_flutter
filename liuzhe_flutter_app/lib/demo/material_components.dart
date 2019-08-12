@@ -25,6 +25,7 @@ import './Animation_demo.dart';
 import './rxdart/rxdart_demo.dart';
 import './bloc/bloc_demo.dart';
 import './http/http_demo.dart';
+import './animation/animation_demo.dart';
 class MaterialCompinents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -35,6 +36,7 @@ class MaterialCompinents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          ListItem(title: "Animation动画效果",page: AnimationDemo()),
           ListItem(title: "http网络请求",page: HttpDemo()),
           ListItem(title: "bloc",page: BlocDemo()),
           ListItem(title: "rxdart",page: RxDartDemo()),
